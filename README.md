@@ -14,3 +14,13 @@ To run the provided example, can use serve command:
 ```bash
 npx cap serve
 ```
+
+
+### setup
+
+```
+% git clone git@github.com:phi-jp/cap-demo.git
+% cd cap-demo
+% yarn
+% npm run dev
+```
