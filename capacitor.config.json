@@ -3,5 +3,7 @@
   "appName": "cap-demo",
   "bundledWebRuntime": true,
   "npmClient": "yarn",
-  "webDir": "www"
+  "webDir": "www",
+
+  "appendUserAgent": "capacitor"
 }

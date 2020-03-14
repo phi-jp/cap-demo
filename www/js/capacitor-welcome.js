@@ -79,6 +79,13 @@ window.customElements.define('capacitor-welcome', class extends HTMLElement {
         <p>
           <img id="image" style="max-width: 100%">
         </p>
+
+        <input type='text' />
+
+        <p>text text text text text text text text text text text text text text text text text </p>
+        <p>text text text text text text text text text text text text text text text text text </p>
+        <p>text text text text text text text text text text text text text text text text text </p>
+        <p>text text text text text text text text text text text text text text text text text </p>
       </main>
     </div>
     `
@@ -131,5 +138,15 @@ window.customElements.define('capacitor-welcome-titlebar', class extends HTMLEle
     </style>
     <slot></slot>
     `;
+
+    this.onclick = () => {
+      Capacitor.Plugins.Modals.alert({
+        title: 'タイトル',
+        message: 'タイトルがクリックされたよ',
+      });
+      // Capacitor.Plugins.Toast.show({
+      //   text: 'トーストだよー',
+      // });
+    };
   }
 });
