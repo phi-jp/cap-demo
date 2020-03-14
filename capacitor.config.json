@@ -5,5 +5,11 @@
   "npmClient": "yarn",
   "webDir": "www",
 
+  "server": {
+    "url": "https://alog-rabee-jp.appspot.com",
+    "hostname": "app",
+    "iosScheme": "ionic"
+  },
+
   "appendUserAgent": "capacitor"
 }
