@@ -1,0 +1,19 @@
+{
+  "appId": "com.example.app",
+  "appName": "cap-demo",
+  "bundledWebRuntime": true,
+  "npmClient": "yarn",
+  "webDir": "www",
+
+  "server": {
+    "url": "http://localhost:3000",
+    "hostname": "app",
+    "iosScheme": "ionic"
+  },
+
+  "android": {
+    "webContentsDebuggingEnabled": true
+  },
+
+  "appendUserAgent": "capacitor"
+}

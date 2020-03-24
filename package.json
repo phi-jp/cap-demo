@@ -5,6 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx cap serve",
+    "add:ios": "npx cap add ios",
+    "add:android": "npx cap add android",
+    "open:ios": "npx cap open ios",
+    "open:android": "npx cap open android",
+    "sync": "npx cap sync",
+    "create_assets": "npx app-icon generate; cordova-splash;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@capacitor/android": "^1.5.1",
     "@capacitor/cli": "^1.5.1",
     "@capacitor/core": "^1.5.1",
     "@capacitor/ios": "^1.5.1"
